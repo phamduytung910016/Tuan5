@@ -1,0 +1,1092 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    height: 500px;
+    background-color: #19283f;
+    display: block;
+}
+
+/*navBar*/
+
+.navBar {
+    display: flex;
+}
+
+.navBar .logo {
+    margin-right: 300px;
+}
+
+.navBar .menu {
+    width: 500px;
+    margin-top: 10px;
+}
+
+.navBar .menu ul {
+    display: flex;
+    list-style: none;
+    margin-left: 50px;
+    width: auto;
+    box-sizing: border-box;
+}
+
+.navBar .menu li a {
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #8797a0;
+    display: block;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+.navBar .seprator {
+    display: flex;
+    width: auto;
+    margin-top: 10px;
+}
+
+.navBar .seprator .iconSearch {
+    font-size: 25px;
+    color: #00c7c0;
+    padding: 10px 10px;
+    border-left: 1px solid #00c7c0;
+    margin-bottom: 60px;
+}
+
+/*title*/
+
+.title {}
+
+.title h1 {
+    color: #f0f8fb;
+    text-align: center;
+    padding-top: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+}
+
+.title p {
+    color: rgb(160, 155, 155);
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}
+
+.title img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*services*/
+
+.Services {
+    width: 100%;
+    height: 550px;
+}
+
+.Services .title {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.Services .title img {}
+
+.Services .title h3 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.Services .title p {
+    color: #a8b9c0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+
+.Services .title .text {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    border-bottom: 1px solid #77e1dd;
+    ;
+}
+
+.menu_service {
+    margin-top: 150px;
+    width: 100%;
+}
+
+.menu_service ul {
+    display: flex;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu_service ul li {
+    list-style: none;
+}
+
+.service {
+    width: 250px;
+    margin-left: 50px;
+}
+
+.service .icon {
+    font-size: 59.06px;
+    text-align: center;
+    color: #00c7c0;
+}
+
+.service h3 {
+    text-align: center;
+    margin-top: 38px;
+    margin-bottom: 38px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #ffc501;
+    font-size: 20px;
+}
+
+.service p {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #ced7db;
+    font-size: 13px;
+}
+
+/*Portfolio*/
+
+.Portfolio {
+    width: 100%;
+    height: 1036px;
+    background-color: #eff7fa;
+}
+
+.Portfolio .title {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Portfolio .title img {
+    display: block;
+    padding-top: 50px;
+}
+
+.Portfolio .title h3 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.Portfolio .title p {
+    color: #a8b9c0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+
+.Navigation {
+    width: 400px;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+}
+
+.Navigation ul {
+    display: flex;
+    list-style: none;
+}
+
+.Navigation ul li {
+    width: 20%;
+    padding: 10px 20px;
+}
+
+.Navigation ul li:hover {
+    background-color: #ff3150;
+}
+
+.Navigation ul li a {
+    color: #a8b9c0;
+    display: block;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-size: 12px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*Works*/
+
+.Works {
+    width: 1160px;
+    height: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Works .Works_1, .Works_2 {
+    width: 100%;
+    height: 48%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Works_2 {
+    margin-bottom: 0px;
+}
+
+.Work {
+    width: 276px;
+    height: 100%;
+    transition: 0.3s;
+    background-color: #ffffff;
+}
+
+.Work:hover {
+    background-color: #33d1cc;
+}
+
+.Work h3 {
+    transition: 0.3s;
+    margin-top: 30%;
+    text-align: center;
+    visibility: hidden;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Work p {
+    text-align: center;
+    visibility: hidden;
+    transition: 0.3s;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Work:hover h3 {
+    visibility: visible;
+}
+
+.Work:hover p {
+    visibility: visible;
+}
+
+.Work1 {
+    width: 276px;
+    height: 100%;
+    transition: 0.3s;
+    background-color: #33d1cc;
+}
+
+.Work1 h3 {
+    transition: 0.3s;
+    margin-top: 30%;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Work1 p {
+    text-align: center;
+    transition: 0.3s;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.Button {
+    width: fit-content;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+/*AboutUs*/
+
+.AboutUs {
+    width: 100%;
+    height: fit-content;
+}
+
+.AboutUs .title {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.AboutUs .title img {}
+
+.AboutUs .title h3 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.AboutUs .title p {
+    color: #a8b9c0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+
+.AboutUs .title .text {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    border-bottom: 1px solid #77e1dd;
+    ;
+}
+
+.AboutUs .title>p {
+    margin-top: 15px;
+    width: 562px;
+    height: 50px;
+    color: #a8b9c0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.AboutUs .Info {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.information .logo {}
+
+.Info .information {
+    width: 100%;
+    height: 100%;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+
+.information h2 {
+    color: #1a2940;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+
+.information p {
+    width: 337px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+.information a {
+    width: fit-content;
+    height: fit-content;
+    margin-top: 15px;
+}
+
+/*Meet The Team*/
+
+.MeetTheTeam {
+    width: 100%;
+    height: 550px;
+    background-color: #eff7fa;
+}
+
+.MeetTheTeam .title {
+    width: 100%;
+    height: fit-content;
+}
+
+.MeetTheTeam .title h2 {
+    text-align: center;
+    color: #ffc501;
+    padding-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+
+.MeetTheTeam .title p {
+    display: block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #c1cfd4;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.MeetTheTeam .teams {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    display: flex;
+    height: 350px;
+    justify-content: space-between;
+}
+
+.teams .team {
+    width: 230px;
+    height: 100%;
+    background-color: white;
+}
+
+.team .block {
+    width: 100%;
+    height: 224px;
+    ;
+}
+
+.team .mask {
+    background-color: #33d1cc;
+}
+
+.team .mask h2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+.team p {
+    text-align: center;
+    margin-top: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    color: #afbec5;
+}
+
+.Clients {
+    width: 100%;
+    height: fit-content;
+    position: relative;
+}
+
+.Clients img {
+    width: 1000px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+/*Advertise*/
+
+.Advertise {
+    width: 100%;
+    height: 300px;
+    background-color: #19283f;
+}
+
+.Advertise h2 {
+    text-align: center;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    padding-top: 100px;
+}
+
+.Advertise p {
+    text-align: center;
+    color: #6b7985;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 13px;
+}
+
+.Advertise a {
+    width: fit-content;
+    height: fit-content;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+/*Blog*/
+
+.Blog {
+    width: 100%;
+    height: 500px;
+}
+
+.Blog .title {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.Blog .title img {}
+
+.Blog .title h3 {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.Blog .title p {
+    color: #a8b9c0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+
+.Blog .title .text {
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    border-bottom: 1px solid #77e1dd;
+    ;
+}
+
+.Blog .allBlog {
+    width: 1100px;
+    height: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog {
+    width: 32%;
+    height: 100%;
+}
+
+.blog .white {
+    background-color: #eff7fa;
+    width: 100%;
+    height: 70%;
+}
+
+.blog .date {
+    display: block;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #a8b9c0;
+    font-size: 12px;
+    padding: 10px 0px;
+}
+
+.blog .text {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: #384254;
+}
+
+.Blog>a {
+    width: fit-content;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 40px;
+}
+
+/*News Letter*/
+
+.Newsletter {
+    width: 100%;
+    height: 70px;
+    background-color: #ffc400;
+}
+
+.Newsletter .new {
+    width: 967px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+
+.Newsletter .Subcribe {
+    width: 30%;
+    padding-top: 25px;
+}
+
+.Newsletter .Subcribe p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #1a2940;
+    font-size: 20px;
+}
+
+.Newsletter .mail {
+    width: 50%;
+    border-bottom: 1px solid white;
+    height: fit-content;
+}
+
+.Newsletter .mail p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-size: 20px;
+    padding-top: 25px;
+    padding-bottom: 5px;
+}
+
+.Newsletter a {
+    width: fit-content;
+    height: fit-content;
+    display: block;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+/*Footer*/
+
+.Footer {
+    width: 100%;
+    height: 300px;
+    background-color: #19283f;
+}
+
+.Footer .Colums {
+    width: 1000px;
+    height: 100%;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 30px;
+}
+
+.firstcolum {
+    width: 400px;
+    height: 100%;
+    margin-right: 10px;
+}
+
+.firstcolum p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #a8b9c0;
+    font-size: 10px;
+    padding: 10px 0px;
+}
+
+.secondcolum, .thirdcolum {
+    height: 100%;
+    width: 130px;
+}
+
+.secondcolum h3 {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.secondcolum p {
+    color: #a8b9c0;
+    font-size: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 13px;
+    display: block;
+}
+
+.thirdcolum h3 {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.thirdcolum p {
+    color: #a8b9c0;
+    font-size: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 13px;
+    display: block;
+}
+
+.forthcolum {
+    height: 100%;
+}
+
+.forthcolum h3 {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.forthcolum p {
+    color: #a8b9c0;
+    font-size: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 15px;
+    display: block;
+}
+
+.forthcolum .Button {
+    width: fit-content;
+    height: fit-content;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.forthcolum .iconsocail {
+    height: 100%;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.fb, .tw, .gg, .dr {
+    display: inline;
+    margin-right: 10px;
+}
+
+.fb>i {
+    font-size: 20px;
+    color: #347cd2;
+}
+
+.tw>i {
+    font-size: 20px;
+    color: #1ec4ff;
+}
+
+.gg>i {
+    font-size: 20px;
+    color: #ff4032;
+}
+
+.dr>i {
+    font-size: 20px;
+    color: #ff3298;
+}
+
+/*Ipad*/
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    /*header*/
+    header {
+        height: fit-content;
+    }
+    .title h1 {
+        padding: 0px;
+    }
+    .navBar .logo {
+        margin-right: 0px;
+    }
+    .navBar .menu ul {
+        margin-left: 0px;
+    }
+    .navBar .menu li a {
+        padding: 10px 5px;
+    }
+    /*Services */
+    .Services {
+        height: 400px;
+    }
+    .Services .title {
+        margin-top: 0px;
+    }
+    .Services .title h3 {
+        margin-top: 0px;
+    }
+    .menu_service {
+        margin-top: 20px;
+    }
+    .service {
+        margin-left: 0px;
+    }
+    /*Portfolio*/
+    .Portfolio {
+        height: fit-content;
+    }
+    .Portfolio .title img {
+        padding-top: 5px;
+    }
+    .Portfolio .title h {
+        margin-top: 0px;
+    }
+    .Navigation {
+        padding-top: 0px;
+    }
+    .Works {
+        width: 100%;
+        height: 300px;
+        margin-top: 0px;
+    }
+    .Works .Works_1, .Works_2 {
+        width: 100%;
+        height: 48%;
+    }
+    .Work1, .Work {
+        width: 24%;
+        height: 100%;
+    }
+    .Button {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    /*AboutUs*/
+    .AboutUs .title {
+        margin-top: 5px;
+    }
+    .AboutUs .Info {
+        display: block;
+    }
+    .Info .button {
+        width: fit-content;
+        height: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .Info .information {
+        margin-top: 0px;
+    }
+    .information p {
+        font-size: 15px;
+        width: 500px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .information h2 {
+        text-align: center;
+    }
+    .information a img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /*MeetTheTeam*/
+    .MeetTheTeam .teams {
+        width: 100%;
+        height: fit-content;
+    }
+    .teams .team {
+        width: 23%;
+        height: 400px;
+    }
+    .Clients img {
+        width: 100%;
+        height: 100%;
+    }
+    /*Blog*/
+    .Blog .title {
+        margin-top: 5px;
+    }
+    .Blog {
+        height: 450px;
+    }
+    .Blog .allBlog {
+        width: 100%;
+        height: fit-content;
+    }
+    .blog {
+        width: 30%;
+    }
+    .blog .white {
+        height: 100px;
+    }
+    .Blog>a {
+        margin-top: 10px;
+    }
+    /*NewesLetter*/
+    .Newsletter .new {
+        width: 100%;
+    }
+    .Newsletter .Subcribe {
+        padding-top: 10px;
+    }
+    /*Footer*/
+    .Footer .Colums {
+        width: 100%;
+    }
+}
+
+/*Mobile*/
+
+@media only screen and (min-width:374px) and (max-width:767px) {
+    /*header*/
+    .navBar {
+        display: flex;
+        flex-direction: column;
+    }
+    .navBar .logo {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .navBar .menu {
+        width: 100%;
+        margin-top: 0px;
+    }
+    .navBar .menu ul {
+        width: fit-content;
+    }
+    .navBar .menu li a {
+        padding: 5px 5px;
+    }
+    .navBar .seprator {
+        display: ;
+    }
+    .navBar .login {
+        margin-left: auto;
+        margin-right: auto;
+        width: fit-content;
+        height: fit-content;
+    }
+    .navBar .seprator .iconSearch {
+        display: none;
+    }
+    .title h1 {
+        padding-top: 10px;
+    }
+    /*Service*/
+    .Services {
+        height: fit-content;
+    }
+    .menu_service {
+        margin-top: 5px;
+        width: fit-content;
+    }
+    .menu_service ul {
+        flex-direction: column;
+        height: fit-content;
+    }
+    /*Portfolio*/
+    .Portfolio {
+        height: 100%;
+    }
+    .Navigation {
+        width: 100%;
+        padding-top: 0px;
+    }
+    .Works {
+        width: 100%;
+        height: fit-content;
+        margin-top: 0px;
+    }
+    .Works_2 {
+        display: none;
+    }
+    .Works .Works_1 {
+        flex-direction: column;
+        height: 300px;
+    }
+    .Work1 {
+        margin-right: auto;
+        margin-left: auto;
+        height: 22%;
+    }
+    .Works_1>.Work {
+        margin-right: auto;
+        margin-left: auto;
+        height: 22%;
+    }
+    .Button {
+        margin-top: 5px;
+    }
+    /*AboutUS*/
+    .AboutUs .Info {
+        flex-direction: column;
+    }
+    .Info .button a img {
+        width: 40%;
+        height: 20%;
+    }
+    .Info .logo img {
+        width: 80%;
+        height: 80%;
+    }
+    .AboutUs .title>p {
+        width: 80%;
+    }
+    /*MeetTheTeam*/
+    .MeetTheTeam {
+        height: fit-content;
+    }
+    .MeetTheTeam .title p {
+        width: 80%;
+    }
+    .MeetTheTeam .teams {
+        width: 100%;
+        height: 1000px;
+        flex-direction: column;
+    }
+    .teams .team {
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+        height: 22%;
+    }
+    .team .block {
+        width: 100%;
+        height: 40%;
+    }
+    /*Clients*/
+    .Clients img {
+        width: 100%;
+        height: 40px;
+    }
+    .Advertise p {
+        width: 80%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .Blog .allBlog {
+        width: 100%;
+    }
+    .blog .text {
+        font-size: 15px;
+    }
+    .Newsletter .new {
+        width: 100%;
+    }
+    .Newsletter .Subcribe {
+        padding-top: 10px;
+    }
+    .Newsletter .Subcribe p{
+        font-size: 10px;
+    }
+    .Newsletter .mail p {
+        padding-top: 10px;
+        font-size: 10px;
+    }
+    .Newsletter a img {
+        width: 80%;
+    }
+
+
+    .Footer .Colums{
+        width: 100%;
+    }
+    .firstcolum{
+        width: 30%;
+    }
+    .firstcolum img{
+       width: 70%;
+    }
+
+    .firstcolum p{
+        font-size: 7px;
+        padding: 3px 0px;
+    }
+    .secondcolum, .thirdcolum{
+        width: 20%;
+    }
+    .forthcolum{
+        width: 30%;
+    }
+    .forthcolum .button a img{
+        width: 100%;
+    }
